@@ -27,8 +27,9 @@ export  const authOptions = {
                         throw new Error("Password do nai match")
                     } else{
                         const { password,...currentUser} = user._doc;
+                       
                         const accessToken = signJwtToken(currentUser,{expiresIn: "7d"})
-
+                        console.log("accessToken",accessToken)
 
                         return {
                             ...currentUser,
