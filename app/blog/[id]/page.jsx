@@ -187,7 +187,7 @@ const Blogdetails = () => {
 
     try {
       const response = await fetch(
-        `${process.env.NEXTAUTH_URL}/api/blog/${params.id}/like`,
+        `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/blog/${params.id}/like`,
         {
           method: "PUT",
           headers: {

@@ -14,9 +14,9 @@ const Login = async () => {
 
   const session = await getServerSession(authOptions);
 
-  console.log(session)
-  console.log(authOptions,"2")
-  console.log(getServerSession,"3")
+  // console.log(session)
+  // console.log(authOptions,"2")
+  // console.log(getServerSession,"3")
 
   if(session) redirect("/blog")
     return (
