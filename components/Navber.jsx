@@ -40,7 +40,7 @@ const Navber = () => {
     <div className='container py-2 h-16 flex items-center justify-between'>
       <Link href='/'>
         <h2>
-          See Our <span className='special-word'>Blogs...</span>
+           <span className='special-word'>Whiteboard</span>
         </h2>
       </Link>
       <ul className='flex items-center gap-3'>
