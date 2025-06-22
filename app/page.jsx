@@ -1,5 +1,5 @@
 import Image from "next/image";
-import home_bird from '../public/img/home_bird.png';
+import home_bird from '../public/img/hand.png';
 
 
 export default function Home() {
@@ -7,14 +7,25 @@ export default function Home() {
   <div className="container flex flex-col md:flex-row gap-5 h-[calc(100vh-4rem)]">
     <div className=" basis-full flex flex-col justify-center md:basis-2/3">
     <p className="special-word text-xs">
-       Protect All the Brids 
+       No boundaries 
     </p>
        <h1 className="pb-5">
-        The World's <span className="special-word">Rarest</span> Brids
+        Hi Mate 👋🙂 <span className="special-word"> Whiteboard</span> is here..
 
        </h1>
        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, sunt quae nostrum ratione consequatur magni asperiores aspernatur tempore esse vero beatae voluptates facilis et rerum quo consequuntur! In, non minus?
+        Welcome to Our Blog!
+
+Hey there! 👋
+You've just entered a space where everyone’s voice matters. Whether you're a seasoned writer or someone with a single powerful thought—this is your platform. Here, anyone can blog, share their ideas, tell stories, spark discussions, or simply express what’s on their mind.
+
+🌟 No boundaries.
+🖋 Real thoughts.
+💬 Honest voices.
+
+So go ahead—read, write, connect. This is not just a blog; it's a shared journey of expression and community.
+
+Welcome to the family.
        </p>
     </div>
        <div className="hidden md:block basis-1/3">

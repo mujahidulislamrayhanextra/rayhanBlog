@@ -15,7 +15,7 @@ const Navber = () => {
   async function fetchUser() {
     try {
       const response = await fetch(
-        `${process.env.NEXTAUTH_URL}/api/user/${session?.user?._id}`
+        `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/user/${session?.user?._id}`
       );
 
       const resData = await response.json();
@@ -40,7 +40,7 @@ const Navber = () => {
     <div className='container py-2 h-16 flex items-center justify-between'>
       <Link href='/'>
         <h2>
-          Light <span className='special-word'>Code.</span>
+          See Our <span className='special-word'>Blogs...</span>
         </h2>
       </Link>
       <ul className='flex items-center gap-3'>

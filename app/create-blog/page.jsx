@@ -104,7 +104,7 @@ const CreateBlog = () => {
         authorId: session?.user?._id,
       };
 
-      const response = await fetch(process.env.NEXTAUTH_URL + "/api/blog", {
+      const response = await fetch(process.env.NEXT_PUBLIC_NEXTAUTH_URL+ "/api/blog", {
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${session?.user?.accessToken}`,
